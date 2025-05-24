@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar section-->
+    <nav class="navbar">                                        <!-- bara de navigatie -->
+        <div class="navbar__container">                         <!-- container in interiorul navbarului, pt stilizare continut navbar -->
+            <a href="#home" 
+            id="navbar__logo">COLOR</a>                         <!-- creare link "<a>" care, la apasare, duce userul la sectiunea cu id=home -->
+            <div class="navbar__toggle" id="mobile-menu">
+            
+            <!-- buton de mobil meniu - pe un dispozitiv mobil, 
+             bara de navigare se schimba, iar acest div devine un buton 
+            pe care utiliazatorul il poate apasa sau 
+            afisa pentru a ascunde meniul -->
+                <span class="bar"></span>                       <!-- 3 linii pentru iconita de la meniul mobil - hamburger menu -->
+                <span class="bar"></span>
+                <span class="bar"></span>
+
+            </div> 
+            <ul class="navbar__menu">                           <!-- lista neordonata, cu navbar menu class pentru stilizare meniu de navigare -->        
+                <li class="navbar__item">                       <!-- element din lista (item din menu), stilizat cu navbar__item -->
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>   <!-- link stilizat cu navbar_links care duce la home din pagina curenta -->
+                </li>
+                                      
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">About</a>
+                </li>                         
+                <li class="navbar__item">
+                    <a href="#services" class="navbar__links" id="services-page">Services</a>
+                </li>                       
+                <li class="navbar__btn">
+                    <a href="#sign-up" class="button" id="signup">Sign up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- hero section -->
+    <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading">Choose your <span>colors</span></h1>
+            <p class="hero__description">Unlimited Possibilities</p>
+            <button class="main__btn"><a href="#">Explore</a></button>
+        </div>
+    </div>
+    
+    <!-- about section -->
+    <div class="main" id="about">
+        <div class="main__container">
+            <div class="main__img--container">
+                <div class="main__img--card">&#128491</div>
+            </div>
+            <div class="main__content">
+                <h1>What do we do?</h1>
+                <h2>We help business scale</h2>
+                <p>Schedule a call to learn more about our services</p>
+                <button class="main__btn"><a href="#">Schedule call</a></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- services section -->
+    <div class="services" id="services">
+        <h1>Our services</h1>
+        <div class="services__wrapper">
+            <div class="services__card">
+                <h2>Costum colowrways</h2>
+                <p>AI Powered technology</p>
+                <div class="services__btn"><button>Get Started</button></div>
+            </div>
+            <div class="services__card">
+                <h2>Are you ready?</h2>
+                <p>Take the leap!</p>
+                <div class="services__btn"><button>Get Started</button></div>
+            </div>
+            <div class="services__card">
+                <h2>Full Gradients</h2>
+                <p>100 combinations</p>
+                <div class="services__btn"><button>Get Started</button></div>
+            </div>
+            <div class="services__card">
+                <h2>Infinite choices</h2>
+                <p>1000s of colors</p>
+                <div class="services__btn"><button>Get Started</button></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- feature section -->
+    <div class="main" id="sign-up">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Join our team</h1>
+                <h2>Sign up today</h2>
+                <p>See what makes us different</p>
+                <button class="main__btn"><a href="#">Sign Up</a></button>
+            </div>
+            <div class="main__img--container">
+                <div class="main__img--card" id="card-2">&#129504</div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- footer section -->
+    <div class="footer__container">
+        <div class="footer_links">
+            <div class="footer__links--wrapper">
+                <div class="footer__link--items">
+                    <h2>About us</h2>
+                    <a href="/sign-up">How it works?</a>
+                    <a href="/sign-up">Testimonials</a>
+                    <a href="/sign-up">Careers</a>
+                    <a href="/sign-up">Terms of service</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Contact us</h2>
+                    <a href="/sign-up">Support</a>
+                    <a href="/sign-up">Destinations</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Videos</h2>
+                    <a href="/sign-up">Ambassadors</a>
+                    <a href="/sign-up">Agency</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Social media</h2>
+                    <a href="/sign-up">Facebook</a>
+                    <a href="/sign-up">Twitter</a>
+                </div>
+            </div>    
+        </div>
+        <section class="social__media">
+            <div class="section__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo">COLOR</a>
+                </div>
+                <p class="website__rights">COLOR 2020. ALL RIGHTS RESERVED</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link" target="_blank"
+                    ><i class="fab fa-instagram"></i></a>
+                    <a href="/" class="social__icon--link"
+                    ><i class="fab fa-facebook"></i></a>
+                    <a href="/" class="social__icon--link"
+                    ><i class="fab fa-youtube"></i></a>
+                    <a href="/" class="social__icon--link"
+                    ><i class="fab fa-linkedin"></i></a>
+                    <a href="/" class="social__icon--link"
+                    ><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
