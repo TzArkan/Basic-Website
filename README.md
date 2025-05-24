@@ -1,8 +1,7 @@
 # Basic-Website
 
 HTML (Structure)
-Navigation Bar (<nav>): 
-A top menu with links to sections like Home, About, Services, and Sign Up. 
+Navigation Bar: A top menu with links to sections like Home, About, Services, and Sign Up. 
 It includes a responsive "hamburger" icon for mobile view.
 
   Page Sections:
